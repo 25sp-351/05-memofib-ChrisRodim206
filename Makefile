@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -O2
 TARGET = fibonacci_cache
-SRC = main.c
+SRC = MemoFib.c fibonacci.c
 
 all: $(TARGET)
 
